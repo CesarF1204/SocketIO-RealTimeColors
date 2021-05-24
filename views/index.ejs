@@ -11,19 +11,19 @@
     <script>
         $(document).ready(function(){
             const socket = io.connect(); //socket.io connection
-            $("#green").on("click", function() {  //clicking the set it to color green
+            $("#green").on("click", function() {  //clicking the button will set it to color green
                 socket.emit("green_clicked", { 
 					color: 'green'
 				});
 				return false;
             });
-            $("#blue").on("click", function() {  //clicking the set it to color blue
+            $("#blue").on("click", function() {  //clicking the button will set it to color blue
                 socket.emit("blue_clicked", { 
 					color: 'blue'
 				});
 				return false;
             });
-            $("#pink").on("click", function() {  //clicking the set it to color pink
+            $("#pink").on("click", function() {  //clicking the button will set it to color pink
                 socket.emit("pink_clicked", { 
 					color: 'pink'
 				});
