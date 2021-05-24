@@ -1,0 +1,32 @@
+.container {
+    border: 5px solid black;
+    width: 500px; 
+    margin: 30px auto;
+    padding: 10px 50px 25px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    background-color: whitesmoke;
+    text-align: center;
+}
+button {
+    border: 1px solid black;
+    width: 100px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    box-shadow: 3px 3px #000;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+button#green {
+    background-color: green;
+}
+button#blue {
+    background-color: blue;
+}
+button#pink {
+    background-color: pink;
+}
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
